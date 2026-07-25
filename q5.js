@@ -3,10 +3,14 @@ let prompt = require("prompt-sync")();
 const input = Number(prompt("Enter a number"));
 const reverseNumber = (n) => {
   //12345 ---> 54321
-  while (n.length == 1) {
-    let remainder = n % 10; //answer
-    let divide = n / 10; //shrink number
-    console.log(remainder);
+
+  let divide = n;
+   let reverse = 0;
+  while (divide > 0) {
+    let remainder = divide % 10; //answer
+    divide = Math.floor(divide / 10); //shrink number
+    reverse = reverse * 10 + remainder;
   }
+  return reverse;
 };
 console.log(reverseNumber(input));
