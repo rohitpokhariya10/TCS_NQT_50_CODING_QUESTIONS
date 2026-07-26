@@ -8,7 +8,7 @@ const reverseNumber = (n) => {
    let reverse = 0;
   while (divide > 0) {
     let remainder = divide % 10; //answer
-    divide = Math.floor(divide / 10); //shrink number
+    divide = Math.floor(divide / 10); //
     reverse = reverse * 10 + remainder;
   }
   return reverse;
