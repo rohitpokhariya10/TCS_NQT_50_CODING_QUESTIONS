@@ -1,4 +1,4 @@
-// Armstrong Number
+// Question 7: Armstrong Number
 
 let prompt = require("prompt-sync")();
 const input = Number(prompt("Enter a number"));

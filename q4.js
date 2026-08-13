@@ -1,4 +1,4 @@
-//Fibonacci Series (First N Terms)
+// Question 4: Fibonacci Series (First N Terms)
 let prompt = require("prompt-sync")();
 const input = Number(prompt("Enter a number"));
 const fibonacciSeries = (n) => {

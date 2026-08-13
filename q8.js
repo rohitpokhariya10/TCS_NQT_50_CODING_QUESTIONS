@@ -1,4 +1,4 @@
-// Sum of Digits
+// Question 8: Sum of Digits
 
 let prompt = require("prompt-sync")();
 const input = Number(prompt("Enter a number: "));

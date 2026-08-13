@@ -1,4 +1,4 @@
-//Check Even or Odd
+// Question 1: Check Even or Odd
 
 let prompt = require("prompt-sync")();
 const input = Number(prompt("Enter a number"))

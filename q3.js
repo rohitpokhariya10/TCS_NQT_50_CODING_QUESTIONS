@@ -1,4 +1,4 @@
-//Factorial of a Number
+// Question 3: Factorial of a Number
 let prompt = require("prompt-sync")();
 const input = Number(prompt("Enter a number"))
 const factorial = (n) => {

@@ -1,4 +1,4 @@
-// Check Palindrome Number
+// Question 6: Check Palindrome Number
 let prompt = require("prompt-sync")();
 const input = Number(prompt("Enter a number"));
 

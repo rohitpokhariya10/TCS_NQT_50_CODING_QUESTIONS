@@ -1,4 +1,4 @@
-//  Reverse a Number
+// Question 5: Reverse a Number
 let prompt = require("prompt-sync")();
 const input = Number(prompt("Enter a number"));
 const reverseNumber = (n) => {

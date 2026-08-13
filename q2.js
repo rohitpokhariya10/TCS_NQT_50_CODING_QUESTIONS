@@ -1,4 +1,4 @@
-//Check Prime Number
+// Question 2: Check Prime Number
 let prompt = require("prompt-sync")();
 const input = prompt("Enter a number");
 const primeNumber = (n) => {
